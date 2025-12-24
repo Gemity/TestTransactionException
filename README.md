@@ -47,13 +47,16 @@ Typical measured values (example):
 - Parcel size: ~543 KB
 - Dominant key: `AdOverlayInfo` (~99% of bytes)
 - Result: **crash on specific devices** (device-dependent threshold)
+  
+  ![image alt](https://github.com/Gemity/TestTransactionException/blob/main/adactivity_extras_breakdown_prod.png)
 
 ### This test project
 Typical measured values:
 - `AdActivity` extras: ~342 KB (varies)
 - Dominant key: `AdOverlayInfo`
 - Result: **usually no crash** (still proves oversized extras exist)
-
+  
+  ![image alt](https://github.com/Gemity/TestTransactionException/blob/main/adactivity_extras_breakdown_test.png)
 ---
 
 ## Devices where crash was observed (production)
